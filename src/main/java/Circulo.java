@@ -1,7 +1,5 @@
 public class Circulo {
     private float raio;
-    public float area;
-    public float circunferencia;
 
     public Circulo(float raio) {
         this.raio = raio;
@@ -16,7 +14,7 @@ public class Circulo {
     }
 
     public float getArea() {
-        return (float) (3.14159 * (raio * raio));
+        return (float) (3.14159 * raio * raio);
     }
 
     public float getCircunferencia() {
