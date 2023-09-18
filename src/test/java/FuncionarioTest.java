@@ -46,7 +46,7 @@ public class FuncionarioTest {
     void testAumento() {
         Funcionario e = new Funcionario("Antonio", "Dias", 25_000f);
 
-        e.concederAumento(50);
+        e.concederAumento(50.0f);
         assertEquals(37_500f, e.getSalario());
     }
 }
